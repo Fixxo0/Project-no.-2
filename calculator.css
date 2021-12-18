@@ -1,0 +1,68 @@
+.container{
+    padding: 10px ;
+    length:1200px;
+    width: 280px;
+    margin: 50px;
+    grid-template-columns: repeat(4,1fr );
+    display: grid;
+    border: 200px 200px solid ;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    column-gap: 5px;
+    row-gap: 5px  
+}
+#grey{
+    background-color: #9A9483;
+}
+#orange{
+    background-image: linear-gradient(to bottom right, #ffdd00, #fbb034);
+}
+
+    .dibba{
+  
+    
+    border: 1px solid white;
+    width: 50px;
+    length:60px;
+    
+
+}
+
+.keys{
+    background-color: white;
+    border: 2px  solid transparent;
+    height: 50px;
+    border-radius:20px;
+    column-gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Montserrat" ;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    -webkit-box-shadow:0 8px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 8px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 8px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+   
+
+
+
+#screen{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    height: 300px;
+    
+}
+#plus{
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+    
+    
+
+
+    
